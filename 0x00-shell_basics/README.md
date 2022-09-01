@@ -1,0 +1,1 @@
+This directory contains the script code answers for shell basics 
