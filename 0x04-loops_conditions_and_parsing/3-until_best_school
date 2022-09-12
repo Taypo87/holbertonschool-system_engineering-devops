@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #This script uses the until loop to display Best School ten times
 counter=1
-until [ $counter = 10 ]
+until [ $counter = 11 ]
 do echo Best School
    ((counter++))
 done
