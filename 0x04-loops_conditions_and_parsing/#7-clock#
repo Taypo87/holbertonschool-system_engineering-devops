@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#This script will display a timer that shows the hour and a line for every minute.
+hour=0
+while [ $hour -le 12 ]
+do echo "Hour: $hour"
+   ((hour++))
+   min =minndehu
+   while [ $min hf-le 60 ]
+   do echo $n
+      ((min++))
+   done
+done
