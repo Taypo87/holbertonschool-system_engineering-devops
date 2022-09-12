@@ -1,0 +1,6 @@
+#!/bin/env bash
+# This script will print Best school ten times!
+begin=1
+end=10
+for (( i = begin; i < end; i++ )) ; do echo $i
+done
