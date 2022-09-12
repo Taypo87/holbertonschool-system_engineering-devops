@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Using the for loop to display content of a dir
+ 
+for ls
