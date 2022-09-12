@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+#I'll use while and if statements to show you how unlucky this might be in other countries.
+i=1
+while [ $i -lt 20 ]
+do echo  1..20
+case 
+    echo "bad luck from China"
+    ;;
+ 9)
+   echo "bad luck from Japan"
+;;
+ 17)
+    echo "bad luck from Italy"
+;;
+esac
+    ((i..))
+done
+    
