@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# making unkillable script!
+trap "echo I am invincible!!!" SIGTERM
+
+while :
+do echo "to infinity and beyond"
+sleep 2
+done

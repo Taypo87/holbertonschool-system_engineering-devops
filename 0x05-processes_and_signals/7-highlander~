@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# making unkillable script!
+
+while :
+do echo "to infinity and beyond"
+sleep 2
+done
