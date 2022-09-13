@@ -2,7 +2,7 @@
 #Using the for loop to display content of a dir
 
 
-for INFO in $(ls -x)
+for INFO in *
 do
     echo "$INFO" | cut -d "-" -f2
 done
