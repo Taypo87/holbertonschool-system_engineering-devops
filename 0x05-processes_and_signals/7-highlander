@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # making unkillable script!
+
 trap "echo I am invincible!!!" SIGTERM
 
 while :
