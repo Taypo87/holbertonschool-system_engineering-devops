@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# using $$ and grep to get process IDs
+
+echo $$ | grep bash
