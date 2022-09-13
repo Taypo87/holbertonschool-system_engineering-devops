@@ -1,0 +1,4 @@
+#!/usr/bin/env
+# this script will show bash procces name and pid
+
+pgrep -l bash
