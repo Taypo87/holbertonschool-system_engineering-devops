@@ -1,2 +1,10 @@
 #!/usr/bin/env bash
 #To file or not
+NAME=school
+
+if [ -e $NAME ]
+then
+    echo hello
+else
+    echo goodbye
+fi

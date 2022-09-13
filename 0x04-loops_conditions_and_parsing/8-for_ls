@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 #Using the for loop to display content of a dir
 
-for i in *
+
+for INFO in $(ls -x)
 do
-echo "$i"
-    cut -f 2- -d '-'
-   done
+    echo "$INFO" | cut -d "-" -f2
+done
