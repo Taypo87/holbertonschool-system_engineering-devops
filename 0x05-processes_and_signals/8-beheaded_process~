@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#this script will kill the unkillable
+
+pkill -9 7-highlander
