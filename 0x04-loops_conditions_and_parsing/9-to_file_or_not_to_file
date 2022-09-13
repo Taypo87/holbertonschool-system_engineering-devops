@@ -4,7 +4,20 @@ NAME=school
 
 if [ -e $NAME ]
 then
-    echo hello
+    echo "school file exists"
+    
 else
-    echo goodbye
+    echo "school file does not exist"
+    if [ -f $NAME ]
+    then
+	echo "school file is a regular file"
+   fi
+
+    if [ -s $NAME ] 
+    then
+	echo "school file is not empty"
+    else
+	echo "school file is empty"
+    fi
+
 fi
