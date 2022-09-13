@@ -1,0 +1,1 @@
+This directory contains solutions for projects 0x05 processes and signals
