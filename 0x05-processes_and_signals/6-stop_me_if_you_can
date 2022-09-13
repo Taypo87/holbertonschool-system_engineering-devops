@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #this uses pkill to terminate a process
 
-pkill 4-to_infinity_and_beyond
+pkill -9  4-to_infinity_and_beyond
