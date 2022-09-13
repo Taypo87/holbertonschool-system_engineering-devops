@@ -2,13 +2,14 @@
 #To file or not
 NAME=school
 
-if [ -e $NAME ]
+if [ -f $NAME ]
 then
-    echo "school file exists"
-       if [ -f $NAME ]
+    echo "school is a regular file"
+       if [ -e $NAME ]
        then
-	   echo "school is a regular file"
-       else  
+	   echo "school file exists" 
+       else
+	   echo "school file does not exist"
 	   if [ -s $NAME ]
 	   then
 	       echo "school file is not empty"
@@ -16,6 +17,4 @@ then
 	       echo "school file is empty"
 	   fi
        fi
-else
-    echo "school file does not exist"
 fi
